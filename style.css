@@ -834,12 +834,35 @@ a {
     color: #036a6a;
 }
 /* WEB-DAY22_Code */
-
+/*フッターのリンク*/
+.footer=links {
+    display: flex;
+    gap: 24px;
+    list style:none;
+    margin:0,
+        padding:0;
+}
+.footer=links a {
+    text-decoration: none;
+    colour: #666666;
+    font=size: 0.85rem;
+    transition:colour 0.3s ease;
+}
+.footer-links a:hover {
+    colour: #036a6a;/*ホバーでプランドカラーに*/
+}
 
 /* ==========================================
  ▲▲▲▲▲  Footer（フッター）　▲▲▲▲
 ========================================== */
-
+.footer-bottom {
+    text-sligan: center;
+}
+.copyright {
+    margin: 0;
+    font-size: 0.8rem;
+    color: #8888888;
+}
 /* レスポンシブ対応 */
 @media (max-width: 768px) {
     body {
